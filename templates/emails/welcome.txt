@@ -1,0 +1,17 @@
+Hi {{ display_name }},
+
+Welcome to Job Tracker! 🎉
+
+You're all set to start managing your job search like a pro.
+
+Here's what you can do:
+  • Track applications across companies
+  • Log interview rounds with feedback
+  • Get reminders before upcoming interviews
+  • View your pipeline dashboard and stats
+
+Get started: http://localhost:8000/api/schema/swagger-ui/
+
+Good luck with your job search!
+
+— The Job Tracker Team

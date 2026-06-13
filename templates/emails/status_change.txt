@@ -1,0 +1,20 @@
+Hi {{ display_name }},
+
+Your application status has been updated.
+
+  Job Title : {{ job_title }}
+  Company   : {{ company_name }}
+  Old Status: {{ old_status }}
+  New Status: {{ new_status }}
+
+{% if new_status == "offer" %}
+Congratulations on receiving an offer! 🎊
+{% elif new_status == "rejected" %}
+Don't be discouraged — keep going! Every rejection is one step closer to the right offer.
+{% elif new_status == "technical" %}
+Great progress! Prepare thoroughly for your technical round.
+{% endif %}
+
+Log in to view full details and schedule next steps.
+
+— Job Tracker

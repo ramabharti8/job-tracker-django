@@ -1,0 +1,18 @@
+Hi {{ display_name }},
+
+Reminder: You have an interview coming up in less than 24 hours!
+
+  Job Title     : {{ job_title }}
+  Company       : {{ company_name }}
+  Interview Type: {{ interview_type }}
+  Scheduled At  : {{ scheduled_at }}
+  {% if location %}Location/Link: {{ location }}{% endif %}
+
+Tips:
+  • Review the job description one more time
+  • Prepare 2-3 questions for the interviewer
+  • Test your audio/video if it's a video call
+
+You've got this! Good luck! 💪
+
+— Job Tracker
