@@ -8,7 +8,7 @@ Your application status has been updated.
   New Status: {{ new_status }}
 
 {% if new_status == "offer" %}
-Congratulations on receiving an offer! 🎊
+Congratulations on receiving an offer! 
 {% elif new_status == "rejected" %}
 Don't be discouraged — keep going! Every rejection is one step closer to the right offer.
 {% elif new_status == "technical" %}
