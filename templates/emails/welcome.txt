@@ -1,6 +1,6 @@
 Hi {{ display_name }},
 
-Welcome to Job Tracker! 🎉
+Welcome to Job Tracker! 
 
 You're all set to start managing your job search like a pro.
 
